@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <title>Object</title>
+  </head>
+  <body>
+    <!-- Site header start -->
+    <header class="site-header"></header>
+    <!-- Site header finish -->
+
+    <!-- Site main start -->
+    <main class="site-main">
+      <section class="site-hero pt-5">
+        <div class="container">
+          <form
+            class="js-form w-75 mx-auto mb-4"
+            method="POST"
+            autocomplete="off"
+          >
+            <div class="mb-3">
+              <label class="form-label fw-semibold" for="fname-input">
+                Enter your name
+              </label>
+              <input
+                class="js-fname-input form-control"
+                type="text"
+                name="user_name"
+                id="fname-input"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label fw-semibold" for="lastname-input">
+                Enter your surname
+              </label>
+              <input
+                class="js-lastname-input form-control"
+                type="text"
+                name="user_surname"
+                id="lastname-input"
+                required
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label fw-semibold" for="tel-number">
+                Enter your tel number
+              </label>
+              <input
+                class="js-tel-number form-control"
+                type="number"
+                name="user_tel_number"
+                id="tel-number"
+                required
+              />
+            </div>
+
+            <button
+              class="btn btn-outline-success fw-semibold d-block ms-auto"
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
+
+          <ul class="js-list w-75 mx-auto list-unstyled"></ul>
+        </div>
+      </section>
+    </main>
+    <!-- Site main finish -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
